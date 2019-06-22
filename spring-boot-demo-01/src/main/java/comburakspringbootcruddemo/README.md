@@ -1,1 +1,2 @@
-
+CruddemoApplication.java ---> Main Spring Boot application class, created by Spring Initializr. It has special annotation @SpringBootApplication which enables Auto configuration(@EnableAutoConfiguration), Component scanning(@ComponentScan) and additional configuration(@Configuration)<br>
+- Behind the scenes.. This main app creates application context and registers all beans, start embedded tomcat server..
