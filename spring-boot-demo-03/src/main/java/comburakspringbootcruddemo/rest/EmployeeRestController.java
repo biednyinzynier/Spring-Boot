@@ -20,6 +20,7 @@ import com.burak.springboot.cruddemo.service.EmployeeService;
 public class EmployeeRestController {
 	
 	private EmployeeService employeeService;
+	
 	@Autowired
 	public EmployeeRestController(EmployeeService theEmployeeService) {
 		employeeService = theEmployeeService;
