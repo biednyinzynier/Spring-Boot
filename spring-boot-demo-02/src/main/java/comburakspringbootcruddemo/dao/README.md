@@ -1,1 +1,1 @@
-
+DAO class using JPA.
